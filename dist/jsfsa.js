@@ -1,6 +1,6 @@
 /**
  * @author Camille Reynders
- * @version 0.3.2
+ * @version 0.3.3
  */
 
 (function (definition) {
@@ -1108,7 +1108,7 @@
          * @constant
          * @type String
          */
-        VERSION: '0.3.2',
+        VERSION: '0.3.3',
         Action : Action,
         StateEvent : StateEvent,
         State : State,

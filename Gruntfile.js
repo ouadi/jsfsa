@@ -58,7 +58,10 @@ module.exports = function (grunt) {
                         'version': '<%= pkg.version %>'
                     }
                 },
-                src: ['dist/**/*.js']
+                files: [
+                    { src: 'dist/<%= pkg.name %>.js', dest: 'dist/<%= pkg.name %>.js'},
+                    { src: 'dist/<%= pkg.name %>.min.js', dest: 'dist/<%= pkg.name %>.min.js'}
+                ]
             }
         },
         jasmine: {

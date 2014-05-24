@@ -1,11 +1,5 @@
 {
   "name": "jsfsa",
-  "version": "0.3.2",
-  "main": "dist/jsfsa.min.js",
-  "ignore": [
-    "*",
-    "./!(docs)",
-    "./!(dist/jsfsa.min.js)",
-    "./!(dist/jsfsa.js)"
-  ]
+  "version": "0.3.3",
+  "main": "dist/jsfsa.min.js"
 }
